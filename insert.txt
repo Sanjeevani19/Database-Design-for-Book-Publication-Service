@@ -1,0 +1,59 @@
+insert into CS46002229633680_Author values('A101','Sanju','UCM','Computer Science','sxv@ucmo.edu','306, Holmeswood','www.wikipedia.com/g-sanju');
+
+insert into CS46002229633680_Author values('A102','Sunny','UCM','Computer Science','sxa@ucmo.edu','410, Holmes','www.wikipedia.com/sunny');
+
+insert into CS46002229633680_Author values('A103','Sony','UCM','Electronics','sva@ucmo.edu','316, Jackson','www.w3schools.com/sony');
+
+insert into CS46002229633680_Author values('A104','Anil','UCM','Electrical','axg@ucmo.edu','320, Jackson','www.learn.com/Anil');
+
+insert into CS46002229633680_Author values('A105','Rajeev','UCM','Chemical','rxv@ucmo.edu','105, jefferson','www.wikipedia.com/Rajeev');
+
+
+
+Publication
+=============
+insert into CS46002229633680_Publication values('P123','Database Theory','05-21-2015','2');
+
+insert into CS46002229633680_Publication values('P125','Big Data','03-21-2014','15');
+
+insert into CS46002229633680_Publication values('P145','Networking Theory','12-07-2013','4');
+
+insert into CS46002229633680_Publication values('P124','Signal Processing','04-10-2015','5');
+
+insert into CS46002229633680_Publication values('P567','Automobile','12-12-2012','10');
+
+
+Writes
+==========
+
+insert into CS46002229633680_Writes values('A101','P123');
+
+insert into CS46002229633680_Writes values('A102','P123');
+
+insert into CS46002229633680_Writes values('A102','P125');
+
+insert into CS46002229633680_Writes values('A103','P145');
+
+insert into CS46002229633680_Writes values('A104','P124');
+
+insert into CS46002229633680_Writes values('A103','P124');
+
+insert into CS46002229633680_Writes values('A105','P167');
+
+
+apperance
+
+==========
+
+insert into CS46002229633680_Appearance values('P123','News paper');
+
+insert into CS46002229633680_Appearance values('P123','Epaper');
+
+insert into CS46002229633680_Appearance values('P129','Magazine');
+
+insert into CS46002229633680_Appearance values('P145','News paper');
+
+insert into CS46002229633680_Appearance values('P124','Magazine');
+
+insert into CS46002229633680_Appearance values('P167','News paper');
+

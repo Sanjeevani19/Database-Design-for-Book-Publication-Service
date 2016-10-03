@@ -1,0 +1,40 @@
+Author Table
+=============
+
+create table CS46002229633680_Author(
+authorId varchar(20) PRIMARY KEY,
+authorName varchar(20),
+institutionName varchar(20),
+departmentName varchar(20),
+email varchar(20),
+address varchar(40),
+url varchar(30)
+);
+
+Publication
+============
+create table CS46002229633680_Publication(
+publicId varchar(30) PRIMARY KEY,
+title varchar(30),
+date varchar(30),
+numOfPages varchar(40)
+);
+
+
+Writes
+===================
+create table CS46002229633680_Writes(
+authorId varchar(30),
+publicId varchar(30),
+FOREIGN KEY(authorId) references CS46002229633680_Author,
+FOREIGN KEY(publicId) references CS46002229633680_Publication,
+PRIMARY KEY(authorId,publicId));
+
+Apperances
+================
+create table CS46002229633680_Appearance(
+publicId varchar(30),
+source varchar(30),
+FOREIGN KEY(publicId) references CS46002229633680_Publication,
+PRIMARY KEY(publicId,source ));
+
